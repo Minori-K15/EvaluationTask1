@@ -39,7 +39,6 @@
 					<tr
 						onclick="location.href='editBook?JAN_CD=<%=columns.get("JAN_CD")%>'"
 						style="cursor: pointer;">
-						<%-- 				<tr onclick="location.href='edit?jan_cd= <%= columns.get("JAN_CD") %>'"> --%>
 						<td style="white-space: nowrap"><%=columns.get("JAN_CD")%></td>
 						<td style="white-space: nowrap"><%=columns.get("ISBN_CD")%></td>
 						<td style="white-space: nowrap"><%=columns.get("BOOK_NM")%></td>
